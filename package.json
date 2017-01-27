@@ -1,0 +1,16 @@
+{
+  "name": "break-gulp-sass",
+  "version": "1.0.0",
+  "description": "Demonstrate test case where gulp-sass 3.x breaks",
+  "author": "Michael Holmes",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^1.6.0"
+  },
+  "dependencies": {
+  }
+}
+

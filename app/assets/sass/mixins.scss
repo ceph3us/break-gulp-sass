@@ -1,0 +1,30 @@
+// test-mixin
+@mixin test-mixin {
+	&.a {
+		color:red;
+	}
+}
+
+.test1 {
+	@include test-mixin();
+}
+
+.test2 {
+        @include test-mixin();
+}
+
+.test3 {
+        @include test-mixin();
+}
+
+.test4 {
+        @include test-mixin();
+}
+
+.test5 {
+        @include test-mixin();
+}
+
+.test6 {
+        @include test-mixin();
+}
